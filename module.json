@@ -1,0 +1,15 @@
+{
+    "name": "LaravelWebApp",
+    "alias": "laravelwebapp",
+    "description": "Designed to provide an experience similar to a mobile or desktop application.",
+    "keywords": ["laravel", "webapp", "progressive web app"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "LaravelWebApp\\Providers\\LaravelWebAppServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

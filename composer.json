@@ -1,0 +1,35 @@
+{
+    "name": "edwinylil1/laravelwebapp",
+    "version": "1.0.0",
+    "description": "Designed to provide an experience similar to a mobile or desktop application.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "webapp",
+        "progressive web apps"
+    ],
+    "authors": [
+        {
+            "name": "Edwin J. Villegas M.",
+            "email": "devvillegas@proton.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelWebApp\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelWebApp\\Providers\\LaravelWebAppServiceProvider"
+            ]
+        }
+    }
+}
