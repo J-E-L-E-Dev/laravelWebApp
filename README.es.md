@@ -1,4 +1,4 @@
-# Laravel (WebApp) Web Application
+# Laravel (WebApp) Aplicaci&oacute;n Web
 
 [![Laravel 7.x](https://img.shields.io/badge/Laravel-7.x-red.svg)](https://laravel.com/docs/7.x)
 [![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red.svg)](https://laravel.com/docs/8.x)
@@ -12,20 +12,19 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/readmeML)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/readmeML/blob/main/README.es.md)
 
-This Laravel package turns your website into a [web application](https://developers.google.com/web/progressive-web-apps). Accessing your site on a mobile or desktop device will prompt you to add the application to your home screen.
+Este paquete de Laravel convierte su sitio web en una [aplicaci&oacute;n web](https://developers.google.com/web/progressive-web-apps). Navegar a su sitio en un dispositivo m&oacute;vil o de escritorio le pedir&aacute; que agregue la aplicaci&oacute;n a su pantalla de inicio.
 
-You will be able to see the launcher icon of your application from the home screen, and upon tapping it, your web application will be displayed. Therefore, it is crucial that your application provides all the navigation within the HTML (without relying on the browser's forward or backward buttons).
+Podr&aacute; ver el icono lanzador de su aplicaci&oacute;n desde la pantalla de inicio, al pulsar se mostrar&aacute; su aplicaci&oacute;n web. Como tal, es fundamental que su aplicaci&oacute;n proporcione toda la navegaci&oacute;n dentro del HTML (sin depender del bot&oacute;n de avance o retroceso del navegador). 
 
-See too the [Laravel Web App Demo](https://github.com/edwinylil1/laravelWebAppDemo)
+Puedes ver tambi&eacute;n el [Laravel Web App Demo](https://github.com/edwinylil1/laravelWebAppDemo)
 
-
-Requirements
+Requisitos
 =====
-This type of web applications requires HTTPS to enable installation functionality unless they are served from localhost. If you are not yet using HTTPS on your site, please refer to [Let's Encrypt](https://letsencrypt.org) and [ZeroSSL](https://zerossl.com).
+Este tipo de aplicaciones web requieren HTTPS para activar la funcionalidad de instalaci&oacute;n, a menos que se proporcionen desde localhost. Si a&uacute;n no est&aacute;s usando HTTPS en tu sitio, consulta Let's Encrypt y ZeroSSL 
 
-## Installation
+## Instalaci&oacute;n
 
-We can add the dependency in our `composer.json` file:
+Puedes agregar lo siguiente a tu archivo compositor.json:
 
 ```json
 "require": {
@@ -33,25 +32,25 @@ We can add the dependency in our `composer.json` file:
 },
 ```
 
-or execute
+o ejecutar:
 
 ```bash
 composer require edwinylil1/laravelwebapp --prefer-dist
 ```
 
-### Publish
+### Publicar
 
-We need to make the package files public in the application:
+Debemos hacer p&uacute;blicos los archivos del paquete en la aplicaci&oacute;n :
 
 ```bash
 php artisan vendor:publish --provider="LaravelWebApp\Providers\LaravelWebAppServiceProvider"
 ```
 
-### Configuration
+### Configuraci&oacute;n
 
-You can configure the name, description, icons, presentations, and more of your application in the file created at in `config/laravelwebapp.php`.
+Puede configurar el nombre, la descripci&oacute;n, los &iacute;conos, las presentaciones y m&aacute;s de su aplicaci&oacute;n en el archivo creado en `config/laravelwebapp.php`.
 
-Example of the file:
+Ejemplo del archivo:
 
 ```php
 'manifest' => [
@@ -91,7 +90,8 @@ Example of the file:
         'custom' => []
     ]
 ```
-You can specify the size of each icon as key of the array or specify it:
+Puede especificar el tama&ntilde;o de cada icono como clave de la matriz o especificarlo:
+
 ```
 [
     'path' => '/images/icons/icon-512x512.png',
@@ -100,7 +100,8 @@ You can specify the size of each icon as key of the array or specify it:
 ],
 
 ```
-Note: in the `custom` tag, you can insert custom tags in `manifest.json` like this, for example:
+
+Observaci&oacute;n: en la etiqueta `custom` puede insertar etiquetas personalizadas en `manifest.json`, por ejemplo:
 
 ```php
 ...
@@ -110,9 +111,9 @@ Note: in the `custom` tag, you can insert custom tags in `manifest.json` like th
     ...
 ]
 ...
-```   
+```
 
-We need to add the package's Blade directive `@laravelWebApp` to our headers `<head>`.
+Necesitamos agregar la directiva Blade del paquete `@laravelWebApp` a nuestros encabezados `<head>`.
 
 ```html
 <html>
@@ -129,10 +130,10 @@ We need to add the package's Blade directive `@laravelWebApp` to our headers `<h
 </html>
 ```
 
+Esto debe incluir las metaetiquetas apropiadas, el enlace a `manifest.json` y el script del serviceworker.
 
-This should include the appropriate meta tags, the link to `manifest.json` and the serviceworker script.
 
-If you view the code from your browser, it will look like this example:
+si ven el c&oacute;digo desde su navegador quedara como este ejemplo:
 
 ```html
 <!-- Web Application Manifest -->
@@ -184,18 +185,18 @@ If you view the code from your browser, it will look like this example:
 ```
 
 
-Troubleshooting
+Soluci&oacute;n de problemas
 =====
-While running the Laravel test server:
+Mientras ejecuta el servidor de prueba Laravel:
 
-1. Verify that `/manifest.json` is being served
-1. Verify that `/serviceworker.js` is being served
-1. Use the Application tab in the Chrome Developer Tools to verify the web app is configured correctly.
-1. Use the "Add to home screen" link on the Application Tab to verify you can add the app successfully.
+1. Verifique que se esté entregando el `/manifest.json`
+1. Verifique que se esté entregando el `/serviceworker.js`
+1. Utilice la pesta&ntildea Aplicaci&oacute;n en las Herramientas para desarrolladores de Chrome para verificar que la aplicaci&oacute;n web est&eacute; configurada correctamente.
+1. Utilice el enlace "Agregar a la pantalla de inicio" en la pesta&ntilde;a Aplicaci&oacute;n para verificar que puede agregar la aplicaci&oacute;n correctamente.
 
-The Service Worker
+El trabajador de servicio
 =====
-By default, the service worker implemented by this app is:
+De forma predeterminada, el trabajador de servicio implementado por esta aplicaci&oacute;n es:
 
 ```js
 var staticCacheName = "webapp-v" + new Date().getTime();
@@ -262,11 +263,14 @@ self.addEventListener("fetch", event => {
     )
 });
 ```
-To customize service worker functionality, update the `public_path/serviceworker.js`.
 
-The offline view
+Para personalizar la funcionalidad del trabajador del servicio, en el archivo `public_path/serviceworker.js`.
+
+La vista fuera de l&iacute;nea
+
 =====
-By default, the offline view is implemented in `resources/views/vendor/laravelwebapp/offline.blade.php`
+De forma predeterminada, la vista sin conexi&oacute;n se encuentra en `resources/views/vendor/laravelwebapp/offline.blade.php`
+Para personalizar, actualice este archivo
 
 ```html
 @extends('layouts.app')
@@ -277,12 +281,11 @@ By default, the offline view is implemented in `resources/views/vendor/laravelwe
 
 @endsection
 ```
-To customize update this file.
 
-## Contributing
+## Contribuir
 
-Contributing is easy! Just fork the repo, make your changes then send a pull request on GitHub. If your PR is languishing in the queue and nothing seems to be happening, then send EVillegas an [email](mailto:devvillegas@proton.me).
+¡Contribuir es f&aacute;cil! Simplemente bifurque el repositorio, realice los cambios y luego env&iacute;e una solicitud de extracci&oacute;n en GitHub. Si su RP languidece en la cola y parece que no sucede nada, env&iacute;e a EVillegas un [email](mailto:devvillegas@proton.me).
 
-## Donations
-#### by paypal: from devvillegas@proton.me
-#### by Id Binance: 359233003
+## Donaciones
+#### Por paypal: para devvillegas@proton.me
+#### Por Id Binance: 359233003
