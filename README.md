@@ -9,8 +9,8 @@
 [![Total Downloads](http://poser.pugx.org/edwinylil1/laravelwebapp/downloads)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 [![License](http://poser.pugx.org/edwinylil1/laravelwebapp/license)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/readmeML)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/readmeML/blob/main/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/laravelWebApp)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/laravelWebApp/blob/main/README.es.md)
 
 This Laravel package turns your website into a [web application](https://developers.google.com/web/progressive-web-apps). Accessing your site on a mobile or desktop device will prompt you to add the application to your home screen.
 

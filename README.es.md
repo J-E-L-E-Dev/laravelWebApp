@@ -9,8 +9,8 @@
 [![Total Downloads](http://poser.pugx.org/edwinylil1/laravelwebapp/downloads)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 [![License](http://poser.pugx.org/edwinylil1/laravelwebapp/license)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/readmeML)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/readmeML/blob/main/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/laravelWebApp)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/laravelWebApp/blob/main/README.es.md)
 
 Este paquete de Laravel convierte su sitio web en una [aplicaci&oacute;n web](https://developers.google.com/web/progressive-web-apps). Navegar a su sitio en un dispositivo m&oacute;vil o de escritorio le pedir&aacute; que agregue la aplicaci&oacute;n a su pantalla de inicio.
 
