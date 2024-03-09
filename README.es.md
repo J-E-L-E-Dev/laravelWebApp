@@ -287,5 +287,5 @@ Para personalizar, actualice este archivo
 ¡Contribuir es f&aacute;cil! Simplemente bifurque el repositorio, realice los cambios y luego env&iacute;e una solicitud de extracci&oacute;n en GitHub. Si su RP languidece en la cola y parece que no sucede nada, env&iacute;e a EVillegas un [email](mailto:devvillegas@proton.me).
 
 ## Donaciones
-#### Por paypal: para devvillegas@proton.me
+#### Por Paypal: [Donar](https://www.paypal.com/donate/?hosted_button_id=6BYWC3V29GXLE)
 #### Por Id Binance: 359233003
