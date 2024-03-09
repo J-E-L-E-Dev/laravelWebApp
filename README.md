@@ -284,5 +284,5 @@ To customize update this file.
 Contributing is easy! Just fork the repo, make your changes then send a pull request on GitHub. If your PR is languishing in the queue and nothing seems to be happening, then send EVillegas an [email](mailto:devvillegas@proton.me).
 
 ## Donations
-#### by paypal: [Donate]([https://github.com/edwinylil1/laravelWebAppDemo](https://www.paypal.com/donate/?hosted_button_id=6BYWC3V29GXLE)https://www.paypal.com/donate/?hosted_button_id=6BYWC3V29GXLE)
+#### by paypal: [Donate](https://www.paypal.com/donate/?hosted_button_id=6BYWC3V29GXLE)
 #### by Id Binance: 359233003
