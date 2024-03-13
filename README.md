@@ -9,14 +9,14 @@
 [![Total Downloads](http://poser.pugx.org/edwinylil1/laravelwebapp/downloads)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 [![License](http://poser.pugx.org/edwinylil1/laravelwebapp/license)](https://packagist.org/packages/edwinylil1/laravelwebapp)
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edwinylil1/laravelWebApp)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/edwinylil1/laravelWebApp/blob/main/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/J-E-L-E-Dev/laravelWebApp)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/J-E-L-E-Dev/laravelWebApp/blob/main/README.es.md)
 
 This Laravel package turns your website into a [web application](https://developers.google.com/web/progressive-web-apps). Accessing your site on a mobile or desktop device will prompt you to add the application to your home screen.
 
 You will be able to see the launcher icon of your application from the home screen, and upon tapping it, your web application will be displayed. Therefore, it is crucial that your application provides all the navigation within the HTML (without relying on the browser's forward or backward buttons).
 
-See too the [Laravel Web App Demo](https://github.com/edwinylil1/laravelWebAppDemo)
+See too the [Laravel Web App Demo](https://github.com/J-E-L-E-Dev/laravelWebAppDemo)
 
 
 Requirements
@@ -29,14 +29,14 @@ We can add the dependency in our `composer.json` file:
 
 ```json
 "require": {
-    "edwinylil1/laravelwebapp": "~1.0.0",
+    "J-E-L-E-Dev/laravelwebapp": "~1.0.0",
 },
 ```
 
 or execute
 
 ```bash
-composer require edwinylil1/laravelwebapp --prefer-dist
+composer require J-E-L-E-Dev/laravelwebapp --prefer-dist
 ```
 
 ### Publish
