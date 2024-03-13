@@ -29,14 +29,14 @@ We can add the dependency in our `composer.json` file:
 
 ```json
 "require": {
-    "j-e-l-e-dev/laravelwebapp": "~1.0.0",
+    "edwinylil1/laravelwebapp": "~1.0.0",
 },
 ```
 
 or execute
 
 ```bash
-composer require j-e-l-e-dev/laravelwebapp --prefer-dist
+composer require edwinylil1/laravelwebapp --prefer-dist
 ```
 
 ### Publish
