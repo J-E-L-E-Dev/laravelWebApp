@@ -16,7 +16,7 @@ Este paquete de Laravel convierte su sitio web en una [aplicaci&oacute;n web](ht
 
 Podr&aacute; ver el icono lanzador de su aplicaci&oacute;n desde la pantalla de inicio, al pulsar se mostrar&aacute; su aplicaci&oacute;n web. Como tal, es fundamental que su aplicaci&oacute;n proporcione toda la navegaci&oacute;n dentro del HTML (sin depender del bot&oacute;n de avance o retroceso del navegador). 
 
-Puedes ver tambi&eacute;n el [Laravel Web App Demo](https://github.com/edwinylil1/laravelWebAppDemo)
+Puedes ver tambi&eacute;n el [Laravel Web App Demo](https://github.com/J-E-L-E-Dev/laravelWebAppDemo)
 
 Requisitos
 =====
@@ -28,14 +28,14 @@ Puedes agregar lo siguiente a tu archivo compositor.json:
 
 ```json
 "require": {
-    "edwinylil1/laravelwebapp": "~1.0.0",
+    "J-E-L-E-Dev/laravelwebapp": "~1.0.0",
 },
 ```
 
 o ejecutar:
 
 ```bash
-composer require edwinylil1/laravelwebapp --prefer-dist
+composer require J-E-L-E-Dev/laravelwebapp --prefer-dist
 ```
 
 ### Publicar
