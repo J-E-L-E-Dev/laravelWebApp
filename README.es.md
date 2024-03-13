@@ -28,14 +28,14 @@ Puedes agregar lo siguiente a tu archivo compositor.json:
 
 ```json
 "require": {
-    "j-e-l-e-dev/laravelwebapp": "~1.0.0",
+    "edwinylil1/laravelwebapp": "~1.0.0",
 },
 ```
 
 o ejecutar:
 
 ```bash
-composer require j-e-l-e-dev/laravelwebapp --prefer-dist
+composer require edwinylil1/laravelwebapp --prefer-dist
 ```
 
 ### Publicar
